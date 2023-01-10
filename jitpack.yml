@@ -1,0 +1,4 @@
+
+install: 
+  - FILE="-Dfile=libv2ray.aar" 
+  - mvn install:install-file $FILE -DgroupId=net.privatify.vpn -DartifactId=v2ray -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
